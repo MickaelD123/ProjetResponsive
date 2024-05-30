@@ -16,19 +16,9 @@ L'objectif principal de cet exercice est de comprendre comment utiliser Flexbox 
 ## Comment exécuter le projet
 
 1. Clonez ce dépôt sur votre machine locale.
-2. Ouvrez le fichier `index.html` dans votre navigateur web.
+2. Ouvrez le fichier `maquette.html` dans votre navigateur web.
 3. Vous pouvez également ouvrir le projet dans votre éditeur de texte préféré pour examiner le code HTML et CSS.
 
-## Structure du projet Captures d'écran
 
-### Ordinateur de bureau
 
-![Capture d'écran - Ordinateur de bureau](img/desktop.png)
 
-### Smartphone
-
-![Capture d'écran - Smartphone](img/smartphone.png)
-
-### Tablette
-
-![Capture d'écran - Tablette](img/tablet.png)
