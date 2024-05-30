@@ -1,4 +1,5 @@
 # ProjetResponsive
+Vous pouvez consulter le site en direct [ici](https://formationdevprojet.ovh/).
 # Entraînement Flex Responsive avec HTML et CSS
 
 Ce projet d'entraînement a pour objectif l'utilisation de Flexbox en CSS pour créer un design responsive pour les ordinateurs de bureau, les smartphones et les tablettes.
