@@ -1,0 +1,402 @@
+.containerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    /* Répartit l'espace entre les éléments */
+    align-items: center;
+    /* Aligne les éléments verticalement au centre */
+    width: 80%;
+    /*Largeur de la flexbox */
+ 
+
+    margin: 60px auto;
+    /* Centre la flexbox horizontalement */
+    background-color: rgb(8, 192, 134);
+    /* Couleur de fond */
+    padding: 10px;
+    /* Espacement intérieur */
+    gap: 200px;
+    /* Ajuste l'espacement entre les éléments */
+
+}
+
+.item {
+    background-color: rgb(8, 192, 134);
+    /* Couleur de fond des éléments */
+    padding: 20px;
+    /* Espacement intérieur des éléments */
+    
+    color: aliceblue;
+    font-size: 20px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.enfant7 {
+    margin: -48px 138px 0 5px;
+    width: 400px;
+    height: 520px;
+    color: red;
+    background-color: rgb(110, 235, 162);
+
+    /* Pour les items à l'intérieur de l'enfante7 */
+    display: flex;
+    
+    flex-direction: column;
+    /* Aligne les enfants verticalement */
+    justify-content: flex-start;
+    /* Aligne les éléments en haut */
+    /* align-items: flex-start; */
+    /* Aligne les éléments en haut */
+    padding: 20px;
+    gap: 0px;
+    margin-top: -60px;
+    /* Réinitialise la marge supérieure */
+    align-self: flex-start;
+    /* Aligne l'élément en haut du conteneur */
+
+
+
+}
+
+
+.enfant6 {
+
+    margin: -40px 8px 0 0px;
+    
+    width: 738px;
+    height: 450px;
+    color: white;
+    
+    background-image: url('Images/image.jpg');
+    background-size: cover;
+    /* Ajuste la taille de l'image pour couvrir toute la zone */
+    background-position: center;
+    /* Centre l'image horizontalement et verticalement */
+
+
+
+}
+
+.item_enfant7 {
+
+
+    background-color: rgb(8, 192, 134);
+    padding: 10px;
+    border: 1px solid green;
+    width: 365px;
+    margin-top: 25px;
+    color: white;
+
+    font-size: 20px;
+    /* PROBLEME solution */
+    margin-top: 0;
+    /* Réinitialise la marge supérieure */
+    margin-bottom: 25px;
+    /* Ajoute une marge en bas pour l'espacement */
+
+}
+
+.item_enfant8 {
+
+
+    background-color: rgb(8, 192, 134);
+    padding: 10px;
+    border: 1px solid green;
+    width: 365px;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+   
+
+}
+
+
+
+
+
+
+.Contenaire_text_enfant7 {
+    margin: 0px 110px 0 5px;
+    width: 360px;
+    height: 150px;
+    color: black;
+    background-color: rgb(110, 235, 162);
+
+    /* Pour les items à l'intérieur de l'enfant7 */
+    display: flex;
+    
+    flex-direction: column;
+    /* Aligne les enfants verticalement */
+    justify-content: flex-start;
+    /* Aligne les éléments en haut */
+    align-items: flex-start;
+    /* Aligne les éléments en haut */
+    padding: 10px;
+    gap: 0px;
+    margin-right: 10px;
+    font-family: 12px 'Arial Black';
+
+
+}
+
+
+.Contenaire_text_enfant8 {
+    margin: 20px 110px 0 5px;
+    width: 360px;
+    height: 130px;
+    color: black;
+    background-color: rgb(110, 235, 162);
+
+    /* Pour les items à l'intérieur de l'enfant7 */
+    display: flex;
+  
+    flex-direction: column;
+    /* Aligne les enfants verticalement */
+    justify-content: flex-start;
+    /* Aligne les éléments en haut */
+    align-items: flex-start;
+    
+    padding: 10px;
+    gap: 0px;
+    margin-right: 10px;
+}
+
+.container8 {
+    display: flex;
+   
+    width: 49%;
+
+    /*Largeur de la flexbox */
+    /* Marge en haut du logo 20px  */
+    margin-top: -70px;
+    margin-right: 590px;
+    /* margin: 60px auto; */
+    /* Centre la flexbox horizontalement */
+    background-color: rgb(8, 192, 134);
+    /* Couleur de fond */
+    padding: 10px;
+    /* Espacement intérieur */
+    gap: 200px;
+    /* Ajuste l'espacement entre les éléments */
+    
+}
+
+
+.Contenaire_text_enfant9 {
+   
+    width: 717px;
+    height: 150px;
+    color: black;
+    background-color: white;
+
+    /* Pour les items à l'intérieur de l'enfant7 */
+    display: flex;
+  
+    margin-top: 20px;
+    margin-right: 590px;
+    padding: 10px;
+    gap: 0px;
+    /* Personnalisation du texte */
+    font-size: 16px;
+    /* Taille du texte */
+    /* font-family: 'Arial Black', Gadget, sans-serif; */
+    font-family: Arial, sans-serif;
+    /* Police du texte */
+    font-weight: normal;
+    /* Poids du texte */
+    text-transform: none;
+    /* Transformation du texte */
+
+
+
+
+}
+
+.Contenaire_text_enfant10 {
+   
+
+    width: 717px;
+    height: 150px;
+    color: black;
+    background-color: white;
+
+    /* Pour les items à l'intérieur de l'enfant7 */
+    display: flex;
+    
+
+    margin-right: 590px;
+    padding: 10px;
+    gap: 0px;
+    /* Personnalisation du texte */
+    font-size: 16px;
+    /* Taille du texte */
+    font-family: Arial, sans-serif;
+    /* Police du texte */
+    font-weight: normal;
+    /* Poids du texte */
+    text-transform: none;
+    /* Transformation du texte */
+
+
+}
+
+.containerLogo2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* media queries pour les tablettes  */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .container {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .item,
+
+
+    .item_enfant7,
+    .item_enfant8,
+
+    .Contenaire_text_enfant7,
+    .Contenaire_text_enfant8,
+    .Contenaire_text_enfant9,
+    .Contenaire_text_enfant10 {
+
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+      
+    }
+
+
+
+    .enfant6 {
+        
+        margin-right: 35px;
+        background-image: url('Images/image.jpg');
+        background-size: cover;
+        
+        background-position: center;
+
+        
+        background-repeat: no-repeat;
+        /* Empêche la répétition de l'image */
+        
+
+
+    }
+
+
+    .enfant7,
+
+
+    .container8 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .containerLogo,
+    .containerLogo2 {
+        justify-content: center;
+    }
+}
+
+
+/* Media queries pour les téléphones */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .item,
+    .item_enfant7 {
+        margin-top: 15px;
+
+    }
+
+    .item_enfant8,
+
+    .Contenaire_text_enfant7 {
+        margin-top: 15px;
+    }
+
+    .Contenaire_text_enfant8,
+
+
+    .Contenaire_text_enfant9,
+    .Contenaire_text_enfant10 {
+
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+        
+    }
+
+
+
+    .enfant6 {
+        
+        margin-left: 20px;
+
+        background-image: url('Images/phone.jpg');
+        background-size: cover;
+        /* Ajuste la taille de l'image pour couvrir toute la zone */
+        background-position: center;
+        
+        
+        /* Ajuste la taille de l'image pour tenir dans l'élément */
+        background-repeat: no-repeat;
+        /* Empêche la répétition de l'image */
+        
+
+    }
+
+
+    .enfant7,
+
+
+    .container8 {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .containerLogo,
+    .containerLogo2 {
+        justify-content: center;
+    }
+}
